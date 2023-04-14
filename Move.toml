@@ -1,0 +1,11 @@
+[package]
+name = "MarketPlace"
+version = "0.0.1"
+
+[dependencies]
+AptosFramework = { local = "../../framework/aptos-framework" }
+AptosToken = { local = "../../framework/aptos-token" }
+
+[addresses]
+std = "0x1"
+marketplace = "0x940635805fed742f7bd791304c957f904fc0ce722471913f2115f8c36665df84"
